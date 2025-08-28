@@ -261,11 +261,11 @@ export default function Destination() {
 
       {/* Accommodations Section */}
       <h1 className="text-3xl sm:text-4xl md:text-4xl lg:text-4xl mt-8 text-center text-black">Luxury Accommodations</h1>
-      <p className="text-center text-2xl mt-5 font-serif text-black">Stay in Paris's most prestigious hotels, where every detail is perfection</p>
+      <p className="text-center text-2xl mt-5 font-serif text-black">Stay in Paris&apos;s most prestigious hotels, where every detail is perfection</p>
       {[
-        { img: "/hote1.jpg", title: "Chandigarh to Manali" },
-        { img: "/hotel2.jpg", title: "Delhi to Manali" },
-        { img: "/hotel3.jpg", title: "Hotel Plaza Athénée" }
+        { Image: "/hote1.jpg", title: "Chandigarh to Manali" },
+        { Image: "/hotel2.jpg", title: "Delhi to Manali" },
+        { Image: "/hotel3.jpg", title: "Hotel Plaza Athénée" }
       ].map((hotel, i) => (
         <div
           key={i}
@@ -273,7 +273,7 @@ export default function Destination() {
         >
           {/* Left Image */}
           <div className="flex-shrink-0 w-full lg:w-[300px] h-[200px] lg:h-auto rounded-xl overflow-hidden">
-            <img src={hotel.img} alt={hotel.title} className="w-full h-full object-cover" />
+            <Image src={hotel.Image} alt={hotel.title} className="w-full h-full object-cover" />
           </div>
           {/* Middle Content */}
           <div className="flex-1 space-y-4">
@@ -363,7 +363,7 @@ export default function Destination() {
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
           {destinations.map((item, idx) => (
             <div key={idx} className="bg-gray-200 text-black rounded-xl overflow-hidden shadow-lg transition hover:-translate-y-1 hover:shadow-xl duration-300">
-              <img src={item.image} alt={item.title} className="w-full h-48 object-cover" />
+              <Image src={item.image} alt={item.title} className="w-full h-48 object-cover" />
               <div className="p-4 space-y-2">
                 <h3 className="text-xl font-bold">{item.title}</h3>
                 <p className="text-sm text-gray-900">

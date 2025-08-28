@@ -22,10 +22,10 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Quick Links</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="/" className="hover:text-red-400 transition">Home</a></li>
-            <li><a href="/destinations" className="hover:text-red-400 transition">Destinations</a></li>
-            <li><a href="/tours" className="hover:text-red-400 transition">Tours</a></li>
-            <li><a href="/contact" className="hover:text-red-400 transition">Contact</a></li>
+            <li><Link href="/" className="hover:text-red-400 transition">Home</Link></li>
+            <li><Link href="/destinations" className="hover:text-red-400 transition">Destinations</Link></li>
+            <li><Link href="/tours" className="hover:text-red-400 transition">Tours</Link></li>
+            <li><Link href="/contact" className="hover:text-red-400 transition">Contact</Link></li>
           </ul>
         </div>
 
@@ -41,15 +41,15 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-3 text-white">Follow Us</h3>
           <div className="flex gap-4 text-xl">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition">
+            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition">
               <FaFacebookF />
-            </a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition">
+            </Link>
+            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition">
               <FaInstagram />
-            </a>
-            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
+            </Link>
+            <Link href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
               <FaYoutube />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

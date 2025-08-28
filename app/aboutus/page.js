@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function aboutus() {
   return (
     <div className="pt-16 min-h-screen ">
@@ -17,7 +18,7 @@ export default function aboutus() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-[#1f2937] mb-6">Who We Are</h2>
           <p className="text-gray-600 max-w-4xl mx-auto text-lg leading-relaxed">
-            Welcome to Tripway Holidays, where journeys transcend the ordinary and become extraordinary memories. As India's premier travel curator, we specialize in delivering seamless, personalized, and luxurious travel experiences that capture the spirit of exploration and the comfort of refined hospitality.
+            Welcome to Tripway Holidays, where journeys transcend the ordinary and become extraordinary memories. As India&apos;s premier travel curator, we specialize in delivering seamless, personalized, and luxurious travel experiences that capture the spirit of exploration and the comfort of refined hospitality.
           </p>
         </div>
 
@@ -123,7 +124,7 @@ export default function aboutus() {
             {/* Team Member 1 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:-translate-x-5">
               <div className="relative h-64 w-full">
-                <img
+                <Image
                   src="/car-wash.png"
                   alt="Team Member"
                   className="w-full h-full"
@@ -138,7 +139,7 @@ export default function aboutus() {
             {/* Team Member 2 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-x-110">
               <div className="relative h-64 w-full">
-                <img
+                <Image
                   src="/driver.png"
                   alt="Team Member"
                   className="w-full h-full"
@@ -153,7 +154,7 @@ export default function aboutus() {
             {/* Team Member 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-lg transition-transform hover:translate-x-5">
               <div className="relative h-64 w-full">
-                <img
+                <Image
                   src="/form4.jpg"
                   alt="Team Member"
                   className="w-full h-full"

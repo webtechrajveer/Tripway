@@ -73,7 +73,7 @@ export default function Contact() {
     Contact Us
   </div>
   <div className="text-black  leading-relaxed max-w-2xl text-left gap-4">
-    We're Here to Help! At Tripway, your travel experience is our top priority. Whether you have questions about booking, need assistance with your itinerary, or simply want to know more about our travel packages, our dedicated support team is just a message away. Feel free to reach out to us via email, phone, or our online contact form. We’re always ready to provide expert guidance and prompt solutions to make your journey smooth and enjoyable. Let's make your next trip unforgettable—connect with us today!
+    We&apos;re Here to Help! At Tripway, your travel experience is our top priority. Whether you have questions about booking, need assistance with your itinerary, or simply want to know more about our travel packages, our dedicated support team is just a message away. Feel free to reach out to us via email, phone, or our online contact form. We&apos;re always ready to provide expert guidance and prompt solutions to make your journey smooth and enjoyable. Let&apos;s make your next trip unforgettable—connect with us today!
   </div>
 </div>
 

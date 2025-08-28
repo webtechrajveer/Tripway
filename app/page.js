@@ -285,7 +285,7 @@ export default function Homepage() {
                   transition={{ duration: 0.90, delay: service.label * 0.5 }}
                   className='flex flex-col items-center'
                 >
-                <img
+                <Image
                   src={service.src}
                   alt={service.alt}
                   className="w-10 h-10 object-contain mb-2 transition duration-200 group-hover:scale-110 group-hover:drop-shadow-lg hover:scale-110 hover:drop-shadow-lg" />
@@ -405,7 +405,7 @@ export default function Homepage() {
                 </span>
               </summary>
               <p className="mt-2 text-sm text-gray-700 leading-relaxed">
-                Choose your tour, click “Book Now”, and complete the secure checkout. You'll get instant email confirmation.
+                Choose your tour, click “Book Now”, and complete the secure checkout. You&apos;ll get instant email confirmation.
               </p>
             </details>
             <details className="group bg-black/5 backdrop-blur-md p-4 rounded-lg border border-black/10">
